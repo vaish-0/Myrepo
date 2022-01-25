@@ -1,6 +1,5 @@
 ---
 - name: sample book
-  hosts: ansible_client
   become: true
   tasks: 
     - name: install httpd
