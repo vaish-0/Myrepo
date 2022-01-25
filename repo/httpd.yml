@@ -1,5 +1,6 @@
 ---
  - name: sample book
+   hosts: ansible_client
    remote user: root
    become: true
    tasks: 
